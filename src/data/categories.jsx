@@ -7,6 +7,7 @@ export const categories = [
   {
     id: "1",
     name: "Steps Away",
+    slug: "steps-away",
     tagline: "Campus-adjacent adventures.",
     description:
       "Quick, walkable activities just steps from Cornell.",
