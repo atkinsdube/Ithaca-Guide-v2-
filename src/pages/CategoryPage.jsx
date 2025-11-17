@@ -27,6 +27,10 @@ function CategoryPage() {
 
       <p className="page-intro">{category.description}</p>
 
+      <p className="page-footer-link">
+        <Link to="/categories">← Back to all categories</Link>
+      </p>
+
       <CategoryTable columns={category.columns} rows={category.rows} />
 
       <p className="page-footer-link">
