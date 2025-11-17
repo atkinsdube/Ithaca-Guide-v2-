@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Carousel from "../components/Carousel";
 import { categories } from "../data/categories";
 
 function Home() {
@@ -13,6 +14,10 @@ function Home() {
   // Filter the categories to only include the featured ones
   const featured = categories.filter((cat) =>
     featuredNames.includes(cat.name)
+  );
+
+  const imagePaths = ["campus.png", "waterfall.png", "commons.png"].map(
+    (filename) => `${import.meta.env.BASE_URL}images/${filename}`
   );
 
   return (
@@ -53,6 +58,13 @@ function Home() {
             </Link>
           ))}
         </div>
+      </div>
+
+      <div className="home-section">
+        <h2>Ithaca Snapshots</h2>
+        <Carousel
+          images={imagePaths}
+        />
       </div>
     </section>
   );
