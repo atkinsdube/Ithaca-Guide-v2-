@@ -27,7 +27,7 @@ function CategoryPage() {
 
       <p className="page-intro">{category.description}</p>
 
-      <p className="page-footer-link">
+      <p className="page-header-link">
         <Link to="/categories">← Back to all categories</Link>
       </p>
 
