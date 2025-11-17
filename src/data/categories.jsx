@@ -845,7 +845,7 @@ export const categories = [
     id: 5,
     slug: "touch-some-grass",
     name: "Touch Some Grass",
-    tagline: "Take a break — literally.",
+    tagline: "Take a break, literally.",
     description:
       "Outdoor escapes to relax, recharge, and reconnect with nature around Ithaca.",
     columns: [
@@ -2731,7 +2731,7 @@ export const categories = [
     id: 14,
     slug: "try-something-new",
     name: "Try Something New",
-    tagline: "Activities you’ve never tried — and won’t forget.",
+    tagline: "Activities you’ve never tried, and won’t forget.",
     description:
       "Level up your weekends with unique and thrilling experiences all over Ithaca. From axe throwing to hot air balloon rides — these adventures aren't your average weekend hang.",
     columns: [
