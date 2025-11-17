@@ -724,7 +724,7 @@ export const categories = [
     name: "One-Hour Adventures",
     tagline: "Got just one hour?",
     description:
-      "Outings that fit perfectly in a one-hour break — quick, fun, and refreshing!",
+      "Outings that fit perfectly in a one-hour break. Quick, fun, and refreshing!",
     columns: [
       { key: "num", label: "#" },
       { key: "activity", label: "Activity" },
@@ -982,7 +982,7 @@ export const categories = [
     name: "Cheap Thrills (Under $10)",
     tagline: "Big fun, small price tag.",
     description:
-      "From films to food to free surprises — here's your guide to exploring Ithaca on a budget. All under $10!",
+      "From films to food to free surprises, here's your guide to exploring Ithaca on a budget. All under $10!",
     columns: [
       { key: "num", label: "#" },
       { key: "activity", label: "Activity" },
@@ -1433,7 +1433,7 @@ export const categories = [
     name: "Fall Favorites",
     tagline: "Pumpkin patches, cider, and all things cozy.",
     description:
-      "Celebrate fall with these cozy, foliage-filled adventures around Ithaca — from apple picking to scenic glamping!",
+      "Celebrate fall with these cozy, foliage-filled adventures around Ithaca, from apple picking to scenic glamping!",
     columns: [
       { key: "num", label: "#" },
       { key: "activity", label: "Activity" },
@@ -2510,7 +2510,7 @@ export const categories = [
     name: "Hidden Gems Only Locals Know",
     tagline: "Off the beaten path.",
     description:
-      "Explore lesser-known but unforgettable spots in and around Ithaca — secret hikes, funky finds, and uniquely local experiences.",
+      "Explore lesser-known but unforgettable spots in and around Ithaca. Secret hikes, funky finds, and uniquely local experiences.",
     columns: [
       { key: "num", label: "#" },
       { key: "activity", label: "Activity" },
@@ -2620,7 +2620,7 @@ export const categories = [
     name: "Skill Up Saturdays",
     tagline: "Learn something new every weekend!",
     description:
-      "Workshops, classes, and meetups happening around Ithaca every Saturday — perfect for leveling up your skills and meeting new people.",
+      "Workshops, classes, and meetups happening around Ithaca every Saturday, perfect for leveling up your skills and meeting new people.",
     columns: [
       { key: "num", label: "#" },
       { key: "activity", label: "Activity" },
