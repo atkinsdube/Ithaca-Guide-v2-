@@ -1,3 +1,5 @@
+// src/pages/Home.jsx
+
 import { Link } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import { categories } from "../data/categories";
@@ -7,7 +9,6 @@ import { snapshots } from "../data/snapshots";
 const orderedSnapshots = [...snapshots].sort((a, b) => a.order - b.order);
 
 function Home() {
-  // Featured category names
   const featuredNames = [
     "Steps Away",
     "Food Trucks & Fast Bites",
@@ -15,7 +16,6 @@ function Home() {
     "Skill Up Saturdays",
   ];
 
-  // Filter the categories to only include the featured ones
   const featured = categories.filter((cat) =>
     featuredNames.includes(cat.name)
   );

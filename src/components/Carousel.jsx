@@ -1,3 +1,5 @@
+// src/components/Carousel.jsx
+
 import { useState, useEffect } from "react";
 
 function Carousel({ images = [], auto = true, interval = 4000 }) {
@@ -18,13 +20,18 @@ function Carousel({ images = [], auto = true, interval = 4000 }) {
 
   if (!hasImages) return null;
 
+  const current = images[index];
+
   return (
     <div className="carousel">
       <div className="carousel-image-container">
         <img
-          src={images[index].src}
-          alt={images[index].alt}
+          src={current.src}
+          alt={current.alt}
           className="carousel-image"
+          onError={() => {
+            console.error("Failed to load image:", current.src);
+          }}
         />
       </div>
 
@@ -42,3 +49,4 @@ function Carousel({ images = [], auto = true, interval = 4000 }) {
 }
 
 export default Carousel;
+
