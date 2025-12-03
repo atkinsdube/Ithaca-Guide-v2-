@@ -1,12 +1,12 @@
 // src/data/snapshots.js
 
-import ithacaCommons from "../assets/ithaca-commons.png";
-import buttermilkFalls from "../assets/buttermilk-falls.png";
-import taughannockFalls from "../assets/taughannock-falls.png";
-import cornellTower from "../assets/cornell-tower-main.png";
-import cornellSage from "../assets/cornell-sage.png";
-import cornellWest from "../assets/cornell-west.png";
-import ithacaCollege from "../assets/ithaca-college.png";
+import ithacaCommons from "../assets/ithaca-commons.jpg";
+import buttermilkFalls from "../assets/buttermilk-falls.jpg";
+import taughannockFalls from "../assets/taughannock-falls.jpg";
+import cornellTower from "../assets/cornell-tower.jpg";
+import cornellSage from "../assets/cornell-sage.jpeg";
+import cornellWest from "../assets/cornell-west.jpg";
+import ithacaCollege from "../assets/ithaca-college.jpeg";
 
 export const snapshots = [
   {
