@@ -3,10 +3,8 @@ import Carousel from "../components/Carousel";
 import { categories } from "../data/categories";
 import { snapshots } from "../data/snapshots";
 
-// Build ordered image paths for the carousel
-const imagePaths = [...snapshots]
-  .sort((a, b) => a.order - b.order)
-  .map((s) => `${import.meta.env.BASE_URL}images/${s.src}`);
+// Build ordered snapshots for the carousel
+const orderedSnapshots = [...snapshots].sort((a, b) => a.order - b.order);
 
 function Home() {
   // Featured category names
@@ -64,7 +62,7 @@ function Home() {
 
       <div className="home-section">
         <h2>Ithaca Snapshots</h2>
-        <Carousel images={imagePaths} />
+        <Carousel images={orderedSnapshots} />
       </div>
     </section>
   );

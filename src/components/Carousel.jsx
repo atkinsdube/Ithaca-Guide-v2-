@@ -2,24 +2,28 @@ import { useState, useEffect } from "react";
 
 function Carousel({ images = [], auto = true, interval = 4000 }) {
   const [index, setIndex] = useState(0);
+  const hasImages = images.length > 0;
 
-  const next = () => {
+  const goToNext = () => {
     setIndex((i) => (i === images.length - 1 ? 0 : i + 1));
   };
 
   // Auto slide
   useEffect(() => {
-    if (!auto) return;
-    const id = setInterval(next, interval);
+    if (!auto || images.length <= 1) return;
+
+    const id = setInterval(goToNext, interval);
     return () => clearInterval(id);
-  }, [auto, interval]);
+  }, [auto, interval, images.length]);
+
+  if (!hasImages) return null;
 
   return (
     <div className="carousel">
       <div className="carousel-image-container">
         <img
-          src={images[index]}
-          alt={`slide-${index}`}
+          src={images[index].src}
+          alt={images[index].alt}
           className="carousel-image"
         />
       </div>

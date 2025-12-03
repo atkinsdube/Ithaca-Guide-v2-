@@ -1,37 +1,37 @@
 export const snapshots = [
   {
-    src: "ithaca-commons.png",
+    src: "/images/ithaca-commons.jpg",
     alt: "Ithaca Commons",
-    order: 1
+    order: 1,
   },
   {
-    src: "buttermilk-falls.png",
+    src: "/images/buttermilk-falls.jpg",
     alt: "Buttermilk Falls",
-    order: 2
+    order: 2,
   },
   {
-    src: "taughannock-falls.png",
+    src: "/images/taughannock-falls.jpg",
     alt: "Taughannock Falls",
-    order: 3
+    order: 3,
   },
   {
-    src: "cornell-tower-main.png",
+    src: "/images/cornell-tower.jpg",
     alt: "Cornell's McGraw Clocktower",
-    order: 4
+    order: 4,
   },
   {
-    src: "cornell-sage.png",
+    src: "/images/cornell-sage.jpeg",
     alt: "Cornell's Sage Chapel",
-    order: 5
+    order: 5,
   },
   {
-    src: "cornell-west.png",
+    src: "/images/cornell-west-tower.jpg",
     alt: "Cornell's West Campus",
-    order: 6
+    order: 6,
   },
   {
-    src: "ithaca-college.png",
+    src: "/images/ithaca-college.jpeg",
     alt: "Ithaca College",
-    order: 6
-  }
+    order: 7,
+  },
 ];
