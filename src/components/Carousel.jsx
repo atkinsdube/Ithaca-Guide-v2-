@@ -1,31 +1,38 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-function Carousel({ images = [] }) {
+function Carousel({ images = [], auto = true, interval = 4000 }) {
   const [index, setIndex] = useState(0);
-
-  const prev = () => {
-    setIndex((i) => (i === 0 ? images.length - 1 : i - 1));
-  };
 
   const next = () => {
     setIndex((i) => (i === images.length - 1 ? 0 : i + 1));
   };
 
+  // Auto slide
+  useEffect(() => {
+    if (!auto) return;
+    const id = setInterval(next, interval);
+    return () => clearInterval(id);
+  }, [auto, interval]);
+
   return (
     <div className="carousel">
-      <button className="carousel-btn" onClick={prev}>
-        ‹
-      </button>
+      <div className="carousel-image-container">
+        <img
+          src={images[index]}
+          alt={`slide-${index}`}
+          className="carousel-image"
+        />
+      </div>
 
-      <img
-        src={images[index]}
-        alt="carousel"
-        className="carousel-image"
-      />
-
-      <button className="carousel-btn" onClick={next}>
-        ›
-      </button>
+      <div className="carousel-dots">
+        {images.map((_, i) => (
+          <span
+            key={i}
+            className={`dot ${i === index ? "active" : ""}`}
+            onClick={() => setIndex(i)}
+          />
+        ))}
+      </div>
     </div>
   );
 }
