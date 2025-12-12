@@ -40,8 +40,7 @@ function Navbar() {
           <NavLink
             to="/behind-the-guide"
             className={({ isActive }) =>
-              "nav-link nav-link-behind" +
-              (isActive ? " nav-link-active" : "")
+              "nav-link" + (isActive ? " nav-link-active" : "")
             }
           >
             Behind the Guide
