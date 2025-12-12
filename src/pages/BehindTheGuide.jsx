@@ -230,7 +230,7 @@ function BehindTheGuide() {
             <h3>William Manno</h3>
             <p>
               William is a first-semester senior majoring in Chemical Engineering.
-              He contributed to stylistic and UX decisions, data collection, and
+              He contributed to stylistic and design decisions, data collection, and
               grouping activities into categories that reflect real student needs.
             </p>
           </div>
@@ -244,7 +244,7 @@ function BehindTheGuide() {
             <h3>Gavin McCarthy</h3>
             <p>
               Gavin is a first-semester senior majoring in Chemical Engineering.
-              He contributed to UX feedback, accessibility-focused design choices,
+              He contributed to UX design, accessibility-focused design choices,
               and user testing insights that improved the clarity of the guide.
             </p>
           </div>
