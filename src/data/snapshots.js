@@ -1,12 +1,13 @@
 // src/data/snapshots.js
 
 import ithacaCommons from "../assets/ithaca-commons.jpg";
-import buttermilkFalls from "../assets/buttermilk-falls.jpg";
+import buttermilkFalls from "../assets/buttermilk.jpg";
 import taughannockFalls from "../assets/taughannock-falls.jpg";
 import cornellTower from "../assets/cornell-tower.jpg";
-import cornellSage from "../assets/cornell-sage.jpeg";
-import cornellWest from "../assets/cornell-west.jpg";
+import cornellWest from "../assets/cornell-west-tower.jpg";
 import ithacaCollege from "../assets/ithaca-college.jpeg";
+import cayugaLake from "../assets/lake.jpg";
+import ithacaFall from "../assets/fall.jpg";
 
 export const snapshots = [
   {
@@ -15,23 +16,23 @@ export const snapshots = [
     order: 1,
   },
   {
-    src: buttermilkFalls,
-    alt: "Buttermilk Falls",
-    order: 2,
-  },
-  {
     src: taughannockFalls,
     alt: "Taughannock Falls",
-    order: 3,
+    order: 2,
   },
   {
     src: cornellTower,
     alt: "Cornell's McGraw Clocktower",
+    order: 3,
+  },
+  {
+    src: buttermilkFalls,
+    alt: "Buttermilk Falls",
     order: 4,
   },
   {
-    src: cornellSage,
-    alt: "Cornell's Sage Chapel",
+    src: cayugaLake,
+    alt: "Cayuga Lake",
     order: 5,
   },
   {
@@ -43,5 +44,10 @@ export const snapshots = [
     src: ithacaCollege,
     alt: "Ithaca College",
     order: 7,
+  },
+  {
+    src: ithacaFall,
+    alt: "Fall in Ithaca",
+    order: 8,
   },
 ];

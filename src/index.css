@@ -393,3 +393,52 @@ a {
     padding-inline: 0.6rem;
   }
 }
+
+.team-grid {
+  display: flex;
+  gap: 2rem;
+  /* space between team members */
+  justify-content: center;
+  /* center them horizontally */
+  flex-wrap: wrap;
+  /* ensures mobile friendliness */
+  margin-top: 2rem;
+}
+
+.team-member {
+  text-align: center;
+  /* centers photos + text under each */
+  max-width: 250px;
+  /* keeps columns a reasonable width */
+}
+
+.team-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* nice circular profile picture */
+  box-shadow: var(--cornell-shadow);
+  margin-bottom: 1rem;
+}
+
+.figure {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.figure img {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 1rem;
+  box-shadow: var(--cornell-shadow);
+  display: block;
+  margin: 0 auto;
+}
+
+.figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--cornell-muted);
+  text-align: left;
+}
