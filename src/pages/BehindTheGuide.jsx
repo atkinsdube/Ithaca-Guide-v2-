@@ -217,9 +217,9 @@ function BehindTheGuide() {
             <h3>William Manno</h3>
             <p>
               Will is a first-semester senior majoring in Chemical Engineering.
-              He refined category groupings, stylistic consistency, and the tone
-              of descriptions so that the guide feels approachable for first-year
-              students.
+              He assisted with data collection, quality checks, and organizing
+              activities into practical groupings that reflect realistic student
+              constraints.
             </p>
           </div>
 
@@ -232,9 +232,8 @@ function BehindTheGuide() {
             <h3>Gavin McCarthy</h3>
             <p>
               Gavin is a first-semester senior majoring in Chemical Engineering.
-              He contributed to accessibility considerations, UX layout choices,
-              and the consistent display of distance, transit, and cost
-              information across pages.
+              He contributed to environmental context research, accessibility
+              considerations and user testing insights.
             </p>
           </div>
         </div>
