@@ -1052,7 +1052,7 @@ export const categories = [
         price: "Free",
         feature: "Best views of sunset 🌅",
         duration: "1 hour",
-        link: "",
+        link: "https://scl.cornell.edu/recreation/outdoor-recreation",
       },
       {
         num: 5,
@@ -1062,7 +1062,7 @@ export const categories = [
         price: "Free",
         feature: "Gorgeous valley overlook 🌄",
         duration: "30 min",
-        link: "",
+        link: "https://ithacatrails.org/site/Stewart-Avenue-Bridge",
       },
       {
         num: 6,
@@ -1072,7 +1072,7 @@ export const categories = [
         price: "Free",
         feature: "Suspended above a gorge 🌁",
         duration: "30 min",
-        link: "",
+        link: "https://ithacatrails.org/site/Fuertes-Suspension-Bridge",
       },
       {
         num: 7,
@@ -1122,12 +1122,65 @@ export const categories = [
         price: "Free",
         feature: "Picnic, basketball court 🧺🏀",
         duration: "1 hour",
+        link: "https://www.cityofithaca.org/Facilities/Facility/Details/Fall-Creek-Park-17",
+      },
+
+      // ---------------------------
+      // NEW ACTIVITIES ADDED
+      // ---------------------------
+
+      {
+        num: 12,
+        activity: "Ithaca Falls",
+        distance: "15–18 min walk",
+        transportation: "Walk / Bike",
+        price: "Free",
+        feature: "Massive waterfall near campus 💦🪨",
+        duration: "30–60 min",
+        link: "https://ithacatrails.org/site/Ithaca-Falls",
+      },
+      {
+        num: 13,
+        activity: "Sapsucker Woods Sanctuary",
+        distance: "3.2 miles",
+        transportation: "TCAT 30 / Uber",
+        price: "Free",
+        feature: "Boardwalk loops & wildlife sanctuary 🐦🌿",
+        duration: "1–2 hours",
+        link: "https://www.birds.cornell.edu/visitor",
+      },
+      {
+        num: 14,
+        activity: "Fuertes Observatory Lawn",
+        distance: "On campus",
+        transportation: "Walk",
+        price: "Free",
+        feature: "Stargazing & peaceful nighttime vibes ⭐🌌",
+        duration: "30–60 min",
+        link: "https://astro.cornell.edu/fuertes-observatory",
+      },
+      {
+        num: 15,
+        activity: "Jessup Road Sunset Overlook",
+        distance: "North Campus",
+        transportation: "Walk",
+        price: "Free",
+        feature: "Open sky views & grassy hillside 🌅🌾",
+        duration: "30–45 min",
         link: "",
       },
+      {
+        num: 16,
+        activity: "Mundy Wildflower Garden",
+        distance: "10 min walk",
+        transportation: "Walk",
+        price: "Free",
+        feature: "Wildflowers, wooden bridges, peaceful stream 🌼🌿",
+        duration: "30–60 min",
+        link: "https://cornellbotanicgardens.org/gardens/wildflower-garden/",
+      }
     ],
   },
-
-
 
   // ========================
   // CATEGORY 6 – Cheap Thrills (Off-Campus)
@@ -3109,7 +3162,6 @@ export const categories = [
     ]
   },
 
-
   // ========================
   // CATEGORY 14 - Move Your Body
   // ========================
@@ -3163,7 +3215,7 @@ export const categories = [
         duration: "1 hr",
         price: "Free w/ Cornell ID",
         what: "Weights, courts, pool, treadmills. 🏊",
-        link: ""
+        link: "https://scl.cornell.edu/recreation/fitness-centers/helen-newman-hall"
       },
       {
         num: 4,
@@ -3174,7 +3226,7 @@ export const categories = [
         duration: "1–2 hrs",
         price: "$10",
         what: "Huge climbing + bouldering wall. 🧗",
-        link: ""
+        link: "https://scl.cornell.edu/recreation/climbing-center"
       },
       {
         num: 5,
@@ -3185,7 +3237,7 @@ export const categories = [
         duration: "30–60 min",
         price: "Free",
         what: "Scenic loops through campus woods. 🏃‍♂️",
-        link: ""
+        link: "https://cornellbotanicgardens.org/wp-content/uploads/2020/05/CornellBotanicGardens-Trail-Map.pdf"
       },
       {
         num: 6,
@@ -3196,7 +3248,7 @@ export const categories = [
         duration: "1 hr",
         price: "$10–$18",
         what: "Hot yoga & flow classes. 🧘",
-        link: ""
+        link: "https://www.puresweatstudios.com/ithaca"
       },
       {
         num: 7,
@@ -3207,7 +3259,7 @@ export const categories = [
         duration: "45–60 min",
         price: "$15 drop-in",
         what: "High-intensity group fitness sessions. 🔥",
-        link: ""
+        link: "https://www.flxfitclub.com/ithaca"
       },
       {
         num: 8,
@@ -3218,7 +3270,7 @@ export const categories = [
         duration: "1 hr",
         price: "$$ membership",
         what: "24/7 accessible off-campus gym. 🕒",
-        link: ""
+        link: "https://www.anytimefitness.com/gyms/4596/ithaca-ny-14850/"
       },
       {
         num: 9,
@@ -3229,7 +3281,7 @@ export const categories = [
         duration: "1 hr",
         price: "$10–$25/month",
         what: "Affordable gym with cardio + weights. 💜",
-        link: ""
+        link: "https://www.planetfitness.com/gyms/ithaca-ny"
       },
       {
         num: 10,
@@ -3240,7 +3292,7 @@ export const categories = [
         duration: "1–2 hrs",
         price: "$16–$20",
         what: "Indoor climbing and bouldering routes. 🧗",
-        link: ""
+        link: "https://cayugarockgym.com/"
       },
       {
         num: 11,
@@ -3251,7 +3303,7 @@ export const categories = [
         duration: "1 hr",
         price: "Free",
         what: "Casual weekend soccer games. ⚽",
-        link: ""
+        link: "https://www.meetup.com/ithaca-soccer/"
       },
       {
         num: 12,
@@ -3262,7 +3314,7 @@ export const categories = [
         duration: "1 hr",
         price: "$5",
         what: "Public ice skating sessions. ⛸️",
-        link: ""
+        link: "https://scl.cornell.edu/recreation/lynah-rink"
       },
       {
         num: 13,
@@ -3273,7 +3325,7 @@ export const categories = [
         duration: "1 hr",
         price: "Free",
         what: "Open courts for singles or doubles. 🎾",
-        link: ""
+        link: "https://scl.cornell.edu/recreation/facilities/outdoor-tennis-courts"
       },
       {
         num: 14,
@@ -3284,7 +3336,7 @@ export const categories = [
         duration: "1 hr",
         price: "$15",
         what: "High-energy boxing workouts. 🥊",
-        link: ""
+        link: "https://www.downtownfitnessithaca.com/"
       },
       {
         num: 15,
@@ -3295,9 +3347,8 @@ export const categories = [
         duration: "45–90 min",
         price: "Free",
         what: "Smooth lakeside biking path. 🚴",
-        link: ""
+        link: "https://www.cayugawaterfronttrail.com/"
       },
-
       {
         num: 16,
         activity: "Salsa & Bachata Social Dance",
@@ -3307,7 +3358,7 @@ export const categories = [
         duration: "1.5–2 hrs",
         price: "$10",
         what: "Beginner-friendly social Latin dancing. 💃",
-        link: ""
+        link: "https://csma-ithaca.org/dance/"
       },
       {
         num: 17,
@@ -3318,7 +3369,7 @@ export const categories = [
         duration: "1 hr",
         price: "$15",
         what: "Alignment-based slow yoga class. 🧘",
-        link: ""
+        link: "https://www.finespiritstudio.com/"
       },
       {
         num: 18,
@@ -3329,7 +3380,7 @@ export const categories = [
         duration: "1 hr",
         price: "$10–$15",
         what: "Entry-level kickboxing & kung fu. 🥋",
-        link: ""
+        link: "https://cascadillamartialarts.com/"
       },
       {
         num: 19,
@@ -3340,7 +3391,7 @@ export const categories = [
         duration: "30 min",
         price: "Free",
         what: "Full-body cardio rower session. 🚣",
-        link: ""
+        link: "https://scl.cornell.edu/recreation/cornell-fitness-centers"
       },
       {
         num: 20,
@@ -3362,7 +3413,7 @@ export const categories = [
         duration: "1–2 hrs",
         price: "Free",
         what: "Gorge trails and forest loops. 🥾",
-        link: ""
+        link: "https://www.cityofithaca.org/DocumentCenter/View/1107/Six-Mile-Creek-Trail-Map"
       },
       {
         num: 22,
@@ -3373,7 +3424,7 @@ export const categories = [
         duration: "1 hr",
         price: "Free",
         what: "Drop-in basketball on outdoor courts. 🏀",
-        link: ""
+        link: "https://scl.cornell.edu/recreation/facilities/outdoor-basketball-courts"
       },
       {
         num: 23,
@@ -3384,7 +3435,7 @@ export const categories = [
         duration: "1 hr",
         price: "Free",
         what: "Fast-paced pickleball matches. 🏓",
-        link: ""
+        link: "https://www.cityofithaca.org/Facilities/Facility/Details/Cass-Park-12"
       },
       {
         num: 24,
@@ -3395,7 +3446,7 @@ export const categories = [
         duration: "1 hr",
         price: "$15",
         what: "Lap pool, sauna, and equipment. 🏊",
-        link: ""
+        link: "https://islandhealthfitness.com/"
       },
       {
         num: 25,
@@ -3406,9 +3457,8 @@ export const categories = [
         duration: "20–30 min",
         price: "Free",
         what: "Intense stair climbing cardio. 🪜",
-        link: ""
+        link: "https://ithacatrails.org/site/Cascadilla-Gorge-Trail"
       },
-
       {
         num: 26,
         activity: "Sledding on Libe Slope",
@@ -3418,7 +3468,7 @@ export const categories = [
         duration: "30–45 min",
         price: "Free",
         what: "Fast, snowy downhill runs. 🛷",
-        link: ""
+        link: "https://scl.cornell.edu/recreation/outdoor-recreation"
       },
       {
         num: 27,
@@ -3429,7 +3479,7 @@ export const categories = [
         duration: "1–2 hrs",
         price: "Free",
         what: "Snowy forest trails for XC skiing. 🎿",
-        link: ""
+        link: "https://www.dec.ny.gov/lands/8115.html"
       },
       {
         num: 28,
@@ -3444,6 +3494,7 @@ export const categories = [
       }
     ]
   },
+
 
 
   // ========================

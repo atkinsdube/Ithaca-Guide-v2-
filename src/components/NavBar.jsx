@@ -14,6 +14,7 @@ function Navbar() {
             className={({ isActive }) =>
               "nav-link" + (isActive ? " nav-link-active" : "")
             }
+            end
           >
             Home
           </NavLink>
@@ -34,6 +35,15 @@ function Navbar() {
             }
           >
             About
+          </NavLink>
+
+          <NavLink
+            to="/behind-the-guide"
+            className={({ isActive }) =>
+              "nav-link" + (isActive ? " nav-link-active" : "")
+            }
+          >
+            Behind the Guide
           </NavLink>
         </nav>
       </div>
