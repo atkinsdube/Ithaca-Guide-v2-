@@ -128,7 +128,7 @@ function BehindTheGuide() {
         <h3>Requirements and Assumptions</h3>
         <ul>
           <li>A phone or laptop with internet access</li>
-          <li>A TCAT pass included in the Cornell student fee</li>
+          <li>A TCAT pass, free for first year students</li>
           <li>Comfortable walking shoes for most activities</li>
         </ul>
 
