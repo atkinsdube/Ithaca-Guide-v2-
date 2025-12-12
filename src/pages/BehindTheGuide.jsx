@@ -230,7 +230,7 @@ function BehindTheGuide() {
             <h3>William Manno</h3>
             <p>
               William is a first-semester senior majoring in Chemical Engineering.
-              He contributed to stylistic and UX decisions, data organization, and
+              He contributed to stylistic and UX decisions, data collection, and
               grouping activities into categories that reflect real student needs.
             </p>
           </div>
