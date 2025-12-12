@@ -65,9 +65,9 @@ function BehindTheGuide() {
           To build the activity list for this guide, we drew on local and
           university-facing sources that describe things to do in Ithaca and
           around campus [13-17]. Tourism and hospitality sites, Cornell activity
-          listings, and advice from current students all helped us identify
-          realistic, student-friendly activities. The Ithaca Guide brings these
-          ideas together in a single, structured, easy-to-use resource tailored
+          listings, and advice from current students helped us identify realistic,
+          student-friendly activities. The Ithaca Guide brings these ideas
+          together in a single, structured, easy-to-use resource tailored
           specifically for Cornell students, with an emphasis on quick scanning
           and low-stress planning.
         </p>
@@ -87,9 +87,7 @@ function BehindTheGuide() {
         </ul>
 
         <h3>Scope</h3>
-        <p>
-          <strong>This guide includes:</strong>
-        </p>
+        <p><strong>This guide includes:</strong></p>
         <ul>
           <li>Walkable or TCAT-accessible off-campus activities</li>
           <li>Free or budget-friendly experiences</li>
@@ -97,9 +95,7 @@ function BehindTheGuide() {
           <li>Realistic timing estimates and quick-scan information</li>
         </ul>
 
-        <p>
-          <strong>This guide does not include:</strong>
-        </p>
+        <p><strong>This guide does not include:</strong></p>
         <ul>
           <li>Bars, clubs, or nightlife</li>
           <li>Full restaurant reviews</li>
@@ -108,7 +104,7 @@ function BehindTheGuide() {
         </ul>
       </div>
 
-      {/* DIRECTIONS WITH FIGURES */}
+      {/* DIRECTIONS AND FIGURES */}
       <div className="page-section">
         <h2>How to Use the Guide</h2>
         <p>
@@ -233,10 +229,9 @@ function BehindTheGuide() {
             />
             <h3>William Manno</h3>
             <p>
-              Will is a first-semester senior majoring in Chemical Engineering.
-              He assisted with data collection, quality checks, and organizing
-              activities into practical groupings that reflect realistic student
-              constraints.
+              William is a first-semester senior majoring in Chemical Engineering.
+              He contributed to stylistic and UX decisions, data organization, and
+              grouping activities into categories that reflect real student needs.
             </p>
           </div>
 
@@ -249,8 +244,8 @@ function BehindTheGuide() {
             <h3>Gavin McCarthy</h3>
             <p>
               Gavin is a first-semester senior majoring in Chemical Engineering.
-              He contributed to environmental context research, accessibility
-              considerations, and user testing insights.
+              He contributed to UX feedback, accessibility-focused design choices,
+              and user testing insights that improved the clarity of the guide.
             </p>
           </div>
         </div>
@@ -267,121 +262,38 @@ function BehindTheGuide() {
       <div className="page-section">
         <h2>Conclusion</h2>
         <p>
-          The Ithaca Guide brings scattered information into one place for
-          Cornell students. By emphasizing constraints such as transportation,
-          weather, budget, and time, it helps students explore Ithaca in a way
-          that feels manageable, welcoming, and realistic. The guide is grounded
-          in research on student transition, information overload, and campus
-          wellbeing, as well as local sources about Ithaca activities [1-17].
+          The Ithaca Guide brings scattered information into one place for Cornell
+          students. By emphasizing constraints such as transportation, weather,
+          budget, and time, it helps students explore Ithaca in a way that feels
+          manageable and realistic. The guide is grounded in research on student
+          transition, information overload, and campus wellbeing, as well as local
+          sources about Ithaca activities [1-17].
         </p>
       </div>
 
       {/* REFERENCES */}
       <div className="page-section">
         <h2>References</h2>
-        <ol className="references-list">
-          <li>
-            [1] M. Worsley, N. Harrison, and M. Corcoran, “Bridging the gap:
-            Exploring the transition into university,” <em>Frontiers in Public
-              Health</em>, 2021.
-          </li>
-          <li>
-            [2] E. Stokoe, D. Nordstokke, and P. Wilcox, “First year students
-            perceptions of the transition to university,”{" "}
-            <em>International Journal of Research in Education and Science</em>,
-            2024.
-          </li>
-          <li>
-            [3] R. Young and K. Bunting, “Rethinking college transitions,”{" "}
-            <em>AERA Open</em>, 2024.
-          </li>
-          <li>
-            [4] S. Catching, <em>
-              New student orientation programs: First-generation community college
-              students
-            </em>, Rowan Digital Works, 2025.
-          </li>
-          <li>
-            [5] B. York and A. Clymer, “Gen Z, new student orientations, and
-            information overload,” <em>College and Research Libraries News</em>,
-            2025.
-          </li>
-          <li>
-            [6] K. M. G. Hoq, “Information overload: Causes, consequences and
-            remedies,” <em>Philosophical Progress</em>, 2016.
-          </li>
-          <li>
-            [7] T. Saracevic and J. Wood,{" "}
-            <em>Consolidation of Information: A Handbook on Evaluation</em>, Paris,
-            France, UNESCO, 1981.
-          </li>
-          <li>
-            [8] M. Gusenbauer, “The age of abundant scholarly information and its
-            synthesis,” <em>Research Synthesis Methods</em>, 2021.
-          </li>
-          <li>
-            [9] I. Soilemezi and I. Linceviciute, “Synthesizing qualitative
-            research,” <em>International Journal of Qualitative Methods</em>, 2018.
-          </li>
-          <li>
-            [10] Cornell University, “Student enrollment,” Institutional Research
-            and Planning, 2021. [Online]. Available:{" "}
-            <a
-              href="https://irp.cornell.edu/university-factbook/student-enrollment"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://irp.cornell.edu/university-factbook/student-enrollment
-            </a>
-          </li>
-          <li>
-            [11] Cornell University, <em>Health Promoting Campus Reports</em>, 2024.
-          </li>
-          <li>
-            [12] J. Koo, S. Hardin, D. C. W. Goon, and J. Black, “Effects of
-            benefits from campus recreation on attachment to the university,”{" "}
-            <em>Global Sport Business Journal</em>, 2019.
-          </li>
-          <li>
-            [13] Visit Ithaca, “Things to do in Ithaca, NY.” [Online]. Available:{" "}
-            <a
-              href="https://www.visitithaca.com/things-to-do/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://www.visitithaca.com/things-to-do/
-            </a>
-          </li>
-          <li>
-            [14] Cornell University School of Continuing Education, “Campus life
-            and activities.” [Online]. Available:{" "}
-            <a
-              href="https://sce.cornell.edu/courses/students/campus-life/activities"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://sce.cornell.edu/courses/students/campus-life/activities
-            </a>
-          </li>
-          <li>
-            [15] The Statler Hotel, “Things to do in the Finger Lakes Region.”
-            [Online]. Available:{" "}
-            <a
-              href="https://statlerhotel.cornell.edu/step-outside/local-experiences"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://statlerhotel.cornell.edu/step-outside/local-experiences
-            </a>
-          </li>
-          <li>
-            [16] “Visiting Cornell for 3 days, what should I do,” r/Cornell, 2021.
-          </li>
-          <li>
-            [17] “Top 10 Things to Do in Ithaca as a New Cornell Student,” 112-114
-            Ferris Place Rentals.
-          </li>
-        </ol>
+
+        <div className="references-list">
+          <p>[1] M. Worsley, N. Harrison, and M. Corcoran, “Bridging the gap: Exploring the transition into university,” Frontiers in Public Health, 2021.</p>
+          <p>[2] E. Stokoe, D. Nordstokke, and P. Wilcox, “First year students perceptions of the transition to university,” International Journal of Research in Education and Science, 2024.</p>
+          <p>[3] R. Young and K. Bunting, “Rethinking college transitions,” AERA Open, 2024.</p>
+          <p>[4] S. Catching, New student orientation programs: First-generation community college students, Rowan Digital Works, 2025.</p>
+          <p>[5] B. York and A. Clymer, “Gen Z, new student orientations, and information overload,” College and Research Libraries News, 2025.</p>
+          <p>[6] K. M. G. Hoq, “Information overload: Causes, consequences and remedies,” Philosophical Progress, 2016.</p>
+          <p>[7] T. Saracevic and J. Wood, Consolidation of Information: A Handbook on Evaluation. UNESCO, 1981.</p>
+          <p>[8] M. Gusenbauer, “The age of abundant scholarly information and its synthesis,” Research Synthesis Methods, 2021.</p>
+          <p>[9] I. Soilemezi and I. Linceviciute, “Synthesizing qualitative research,” International Journal of Qualitative Methods, 2018.</p>
+          <p>[10] Cornell University, “Student enrollment,” Institutional Research and Planning, 2021. Available: https://irp.cornell.edu/university-factbook/student-enrollment</p>
+          <p>[11] Cornell University, Health Promoting Campus Reports, 2024.</p>
+          <p>[12] J. Koo et al., “Effects of benefits from campus recreation on attachment to the university,” Global Sport Business Journal, 2019.</p>
+          <p>[13] Visit Ithaca, “Things to do in Ithaca, NY.” Available: https://www.visitithaca.com/things-to-do/</p>
+          <p>[14] Cornell University School of Continuing Education, “Campus life and activities.” Available: https://sce.cornell.edu/courses/students/campus-life/activities</p>
+          <p>[15] The Statler Hotel, “Things to do in the Finger Lakes Region.” Available: https://statlerhotel.cornell.edu/step-outside/local-experiences</p>
+          <p>[16] “Visiting Cornell for 3 days, what should I do,” r/Cornell, 2021.</p>
+          <p>[17] “Top 10 Things to Do in Ithaca as a New Cornell Student,” 112–114 Ferris Place Rentals.</p>
+        </div>
       </div>
     </section>
   );

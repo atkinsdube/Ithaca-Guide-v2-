@@ -74,6 +74,9 @@ a {
 .navbar-links {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
+  /* allow pills to wrap on small screens */
+  justify-content: flex-end;
 }
 
 .nav-link {
@@ -83,6 +86,7 @@ a {
   border-radius: 999px;
   transition: background 0.15s ease, color 0.15s ease;
   white-space: nowrap;
+  /* keep text on one line inside the pill */
 }
 
 .nav-link:hover {
@@ -164,6 +168,7 @@ a {
 
 .page {
   margin-top: 1.75rem;
+  max-width: 100%;
 }
 
 .page-header h1 {
@@ -239,6 +244,7 @@ a {
 .table-wrapper {
   margin-top: 1.5rem;
   overflow-x: auto;
+  width: 100%;
 }
 
 .category-table {
@@ -371,46 +377,19 @@ a {
   background: var(--cornell-red);
 }
 
-/* RESPONSIVE */
-
-@media (max-width: 600px) {
-  .navbar-inner {
-    padding-inline: 0.9rem;
-  }
-
-  .app-main {
-    padding-inline: 0.9rem;
-  }
-
-  .hero {
-    padding: 1.6rem 1.2rem;
-  }
-
-  .navbar-links {
-    gap: 0.4rem;
-  }
-
-  .nav-link {
-    padding-inline: 0.6rem;
-  }
-}
+/* TEAM GRID */
 
 .team-grid {
   display: flex;
   gap: 2rem;
-  /* space between team members */
   justify-content: center;
-  /* center them horizontally */
   flex-wrap: wrap;
-  /* ensures mobile friendliness */
   margin-top: 2rem;
 }
 
 .team-member {
   text-align: center;
-  /* centers photos + text under each */
   max-width: 250px;
-  /* keeps columns a reasonable width */
 }
 
 .team-photo {
@@ -418,10 +397,11 @@ a {
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  /* nice circular profile picture */
   box-shadow: var(--cornell-shadow);
   margin-bottom: 1rem;
 }
+
+/* FIGURES */
 
 .figure {
   margin-top: 1.5rem;
@@ -431,6 +411,7 @@ a {
 .figure img {
   width: 100%;
   max-width: 720px;
+  height: auto;
   border-radius: 1rem;
   box-shadow: var(--cornell-shadow);
   display: block;
@@ -444,13 +425,39 @@ a {
   text-align: left;
 }
 
+/* REFERENCES (IEEE-STYLE HANGING INDENT) */
+
+.references-list p {
+  text-indent: -1.2rem;
+  margin-left: 1.2rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* RESPONSIVE */
+
 @media (max-width: 600px) {
-  .nav-link-behind {
-    white-space: nowrap;
-    font-size: 0.85rem;
+  .navbar-inner {
+    padding-inline: 0.9rem;
+  }
+
+  .app-main {
+    padding-inline: 0.9rem;
+  }
+
+  .home .hero {
+    padding: 1.6rem 1.2rem;
+  }
+
+  .navbar-links {
+    gap: 0.4rem;
+    justify-content: center;
+    /* center pills on mobile */
+  }
+
+  .nav-link {
     padding-inline: 0.6rem;
-    max-width: 150px;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 }
