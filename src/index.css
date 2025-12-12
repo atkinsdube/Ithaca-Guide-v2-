@@ -82,6 +82,7 @@ a {
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
   transition: background 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
 }
 
 .nav-link:hover {
@@ -441,13 +442,4 @@ a {
   font-size: 0.9rem;
   color: var(--cornell-muted);
   text-align: left;
-}
-
-.behind-guide {
-  margin-top: 1.75rem;
-  padding: 1.75rem 1.5rem 2.25rem;
-  background: var(--cornell-card-bg);
-  /* white card */
-  border-radius: 1.5rem;
-  box-shadow: var(--cornell-shadow);
 }
