@@ -443,3 +443,14 @@ a {
   color: var(--cornell-muted);
   text-align: left;
 }
+
+@media (max-width: 600px) {
+  .nav-link-behind {
+    white-space: nowrap;
+    font-size: 0.85rem;
+    padding-inline: 0.6rem;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
